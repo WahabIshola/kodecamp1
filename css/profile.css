@@ -1,0 +1,172 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+.main-content {
+    margin-top: 30px;
+
+}
+
+.profilePhoto {
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+}
+
+.profilePhoto2 {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: 20px auto;
+}
+
+.social-icons {
+    margin: 30px 0 0 30px;
+}
+
+.social-icons .twitter-icon {
+    padding: 0 20px;
+}
+
+.about-me {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    width: 60%;
+    margin: 0 auto 50px auto;
+}
+
+.what-we-do {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.what-we-do-1, .what-we-do-2  {
+    width: 48%;
+
+}
+.what-we-do-2  {
+    margin-top: 30px;
+}
+
+.grey-text {
+    color: grey;
+}
+
+.chat-now, .phone-number {
+    display: flex;
+    gap: 2%
+}
+
+.phone-number {
+    width: 30%;
+}
+
+.what-we-design, .info-security {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    width: 60%;
+    margin: 50px auto; 
+}
+
+hr {
+    width: 60%;
+}
+
+.portfolio {
+    width: 85%;
+    display: flex;
+    margin: 40px auto; 
+    justify-content: space-between;
+
+}
+
+.portfolio .portfolio-images {
+    width: 30%;
+    height: 300px;
+    border-radius: 50px;
+}
+
+.learn-button {
+    display: flex;
+    align-items: center;
+    width: 85%;
+    flex-direction: column; 
+    margin: 50px auto;
+}
+
+.learn-button p button {
+    padding: 20px 70px;
+    color: pink;
+    background-color: black;
+    border: 3px solid pink;
+    font-family: 'Kaisei HarunoUmi', serif;
+
+}
+
+.what-we-bring {
+    width: 80%;
+    margin: 20px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.what-we-bring-1, .what-we-bring-2 {
+    width: 46%;
+}
+
+.my-signature {
+    width: 200px;
+    height: 150px;
+}
+
+.info-security hr {
+    height: 10px;
+    width: 200px;
+    background-color: pink;
+}
+
+.change-color {
+    color:  pink;
+    font-family: 'Kaisei HarunoUmi', serif;
+}
+
+.thin-hr {
+    background-color:  pink;
+    border: 1px thin pink;
+}
+
+.font-size-60 {
+    font-size: 60px;
+}
+
+.font-size-45 {
+    font-size: 45px;
+}
+
+.font-size-20 {
+    font-size: 20px;
+}
+
+.font-size-18 {
+    font-size: 18px;
+}
+
+.width-70 {
+    font-weight: bolder;
+}
+
+
+.font-size-50 {
+    font-size: 50px;
+    text-align: center;
+}
+
+#thin-text {
+    font-weight: 10;
+}
